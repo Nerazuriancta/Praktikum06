@@ -32,7 +32,7 @@ public class MahasiswaBerprestasi20 {
 
     public void selectionSort() {
         for (int i=0; i<listMhs.length-1; i++) {
-            int idxMin=1;
+            int idxMin=i;
             for (int j=i+1; j<listMhs.length; j++) {
                 if (listMhs[j].ipk<listMhs[idxMin].ipk) {
                     idxMin=j;
